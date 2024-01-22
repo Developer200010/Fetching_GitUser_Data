@@ -1,3 +1,5 @@
+# kindly note :-
+* `As it is free api it get exhausted eventually, kindly wait for sometime so that it become competible again to fetch data.`
 ---
 ## Good Day :-)
 ## This project is made to fetch all the public data of github users
@@ -18,11 +20,11 @@
 | fetchRepo() | In fetchRepo we are specifically geting data of repositoried such as repo name, repo description and for languages a function get calls i.e fetchAllLanguaged . |
 | fetchAllLanguage |In fetchAllLanguage, language being provided which is called in fetchRepo. |
 
->>> API use in function
+>> API use in function
 
 ```
 1.defaultRender() - https://api.github.com/users/"+originalname
 2.fetchRepo() - https://api.github.com/users/${originalname}/repos?per_page=${dataLimit}&page=${pageNum}
-3.https://api.github.com/repos/${originalname}/${reponame}/languages
+3.fetchAllLanguage - https://api.github.com/repos/${originalname}/${reponame}/languages
 ```
 
