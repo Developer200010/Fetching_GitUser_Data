@@ -16,7 +16,7 @@
 ## Define use of function.
 | Function | Description |
 | ------ | ----------- |
-| defaultRander()   | When it's called first it render the default repo l.e Developer200012, after submission of form it picks up value searh in input tag. In this function fetchRepo() has called so that it fetch the repo data when new user data passed |
+| defaultRander()   | When it's called first it render the default user data l.e Developer200012, after submission of form it picks up value form searh in input tag. In this function fetchRepo() has called so that it fetch the repo data when new user data passed |
 | fetchRepo() | In fetchRepo we are specifically geting data of repositoried such as repo name, repo description and for languages a function get calls i.e fetchAllLanguaged . |
 | fetchAllLanguage |In fetchAllLanguage, language being provided which is called in fetchRepo. |
 
